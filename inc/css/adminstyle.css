@@ -1,0 +1,34 @@
+.imc-gp-setting-field .form-group:not(.imc-gp-logo) {
+  margin-bottom: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.imc-gp-setting-field .form-group label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+.imc-gp-setting-field .form-group .imc-gp-image-preview {
+  max-width: 200px;
+  margin-top: 15px;
+}
+.imc-gp-setting-field .form-group .imc-gp-image-preview img {
+  width: 100%;
+}
+.imc-gp-setting-field .form-group.imc-gp-logo .wrap_button {
+  display: flex;
+  gap: 13px;
+  margin: 15px 0 8px;
+}
+.imc-gp-setting-field .form-group.imc-gp-logo .imc-gp-filename {
+  margin: 10px 0;
+}
+.imc-gp-setting-field .imc_gp_form {
+  margin-top: 60px;
+  max-width: 310px;
+}
+.imc-gp-setting-field .imc_gp_form .imc_gp_submit {
+  margin-top: 30px;
+}/*# sourceMappingURL=adminstyle.css.map */

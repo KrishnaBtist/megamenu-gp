@@ -1,0 +1,145 @@
+.imcgpmenuLogo {
+  display: none;
+}
+
+.sticky-navigation-logo .imcgpmenuLogo {
+  display: none;
+}
+
+.menu-item-has-children-click .dropdown-menu-toggle, .menu-item-has-children-click-arrow .dropdown-menu-toggle {
+  display: inline-block;
+  height: 100%;
+  clear: both;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+.imc_MegaMenuVisible svg {
+  transform: rotate(180deg);
+}
+
+.nav-float-right .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper, .nav-below-header .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper, .nav-above-header .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper, .nav-float-left .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper {
+  background-color: red;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0s linear 0.4s; /* Delay visibility transition */
+  position: fixed;
+  left: 0 !important;
+  top: 0;
+  z-index: 99999;
+  width: 100%;
+  padding: 0;
+  background-color: #fff;
+  overflow: hidden;
+  display: none;
+  right: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.nav-float-right .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper .close_imc_menu, .nav-below-header .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper .close_imc_menu, .nav-above-header .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper .close_imc_menu, .nav-float-left .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper .close_imc_menu {
+  display: none;
+}
+.nav-float-right .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper ul, .nav-below-header .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper ul, .nav-above-header .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper ul, .nav-float-left .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper ul {
+  display: unset;
+  box-shadow: unset;
+  float: unset;
+  position: unset;
+  left: unset;
+  opacity: unset;
+  z-index: unset;
+  width: unset;
+  text-align: unset;
+  top: unset;
+  transition: unset;
+  transition-delay: unset;
+  pointer-events: unset;
+  height: unset;
+  visibility: visible;
+  opacity: 1;
+}
+.nav-float-right .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper ul li, .nav-below-header .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper ul li, .nav-above-header .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper ul li, .nav-float-left .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper ul li {
+  visibility: visible;
+}
+.nav-float-right .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper ul li a, .nav-below-header .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper ul li a, .nav-above-header .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper ul li a, .nav-float-left .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper ul li a {
+  padding: unset;
+  font-size: unset;
+}
+.nav-float-right .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper.openMenu, .nav-below-header .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper.openMenu, .nav-above-header .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper.openMenu, .nav-float-left .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper.openMenu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  padding: 15px 30px;
+  transition-delay: 0s;
+  display: block;
+}
+.nav-float-right .main-navigation ul.imc-gp-mega-menu-wrapper li, .nav-below-header .main-navigation ul.imc-gp-mega-menu-wrapper li, .nav-above-header .main-navigation ul.imc-gp-mega-menu-wrapper li, .nav-float-left .main-navigation ul.imc-gp-mega-menu-wrapper li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.nav-float-right .main-navigation ul.imc-gp-mega-menu-wrapper li a, .nav-below-header .main-navigation ul.imc-gp-mega-menu-wrapper li a, .nav-above-header .main-navigation ul.imc-gp-mega-menu-wrapper li a, .nav-float-left .main-navigation ul.imc-gp-mega-menu-wrapper li a {
+  text-decoration: none;
+  color: inherit;
+  padding: unset;
+}
+.nav-float-right .main-navigation ul.imc-gp-mega-menu-wrapper li a:hover, .nav-below-header .main-navigation ul.imc-gp-mega-menu-wrapper li a:hover, .nav-above-header .main-navigation ul.imc-gp-mega-menu-wrapper li a:hover, .nav-float-left .main-navigation ul.imc-gp-mega-menu-wrapper li a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.imc_gp_megamenu .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper ul {
+  display: unset;
+  box-shadow: unset;
+  float: unset;
+  position: unset;
+  left: unset;
+  opacity: unset;
+  z-index: unset;
+  width: unset;
+  text-align: unset;
+  top: unset;
+  transition: unset;
+  transition-delay: unset;
+  pointer-events: unset;
+  height: unset;
+  visibility: visible;
+  opacity: 1;
+}
+.imc_gp_megamenu .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper ul li {
+  visibility: visible;
+}
+.imc_gp_megamenu .gen-sidebar-nav .main-navigation, .imc_gp_megamenu .gen-sidebar-nav #primary-menu {
+  max-width: 100%;
+}
+.imc_gp_megamenu .gen-sidebar-nav .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper {
+  position: absolute;
+  opacity: 1;
+  visibility: visible;
+  top: 0 !important;
+  width: 100%;
+  max-width: 100%;
+}
+.imc_gp_megamenu .gen-sidebar-nav .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper a {
+  display: contents;
+}
+
+@media (min-width: 769px) {
+  .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper {
+    height: auto !important;
+  }
+}
+@media (max-width: 768px) {
+  .imc_gp_megamenu .main-navigation, .imc_gp_megamenu #primary-menu {
+    max-width: 100%;
+  }
+  .imc_gp_mega_menu_item a span svg {
+    display: inline-block;
+  }
+  .imc_gp_mega_menu_item .imc-gp-mega-menu-wrapper {
+    position: relative;
+  }
+  .imc_gp_mega_menu_item:hover .imc-gp-mega-menu-wrapper {
+    display: none;
+  }
+}/*# sourceMappingURL=frontstyle.css.map */
